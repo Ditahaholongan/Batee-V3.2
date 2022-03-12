@@ -14,10 +14,10 @@
 PING_COMMAND : ["pings"]
 START_COMMAND : ["start"]
 HELP_COMMAND : ["helps"]
-SETTINGS_COMMAND : ["settingd", "setting"]
+SETTINGS_COMMAND : ["settings", "setting"]
 RELOAD_COMMAND : ["admincaches", "reloads"]
-GSTATS_COMMAND : ["gstat"]
-STATS_COMMAND : ["stat"]
+GSTATS_COMMAND : ["gstats"]
+STATS_COMMAND : ["stats"]
 LANGUAGE_COMMAND : ["lang", "language", "langs"]
 
 # Play Commands
@@ -40,7 +40,7 @@ LYRICS_COMMAND : ["lyric"]
 # Admin Commands
 AUTH_COMMAND : ["auths"]
 UNAUTH_COMMAND : ["unauths"]
-AUTHUSERS_COMMAND : ["authuser"]
+AUTHUSERS_COMMAND : ["authusers"]
 PAUSE_COMMAND : ["pauses", "cpauses"]
 RESUME_COMMAND : ["resumes", "cresumes"]
 MUTE_COMMAND : ["mutes", "cmutes"]
