@@ -11,13 +11,13 @@
 # Commands in Every Language
 
 # Bot Commands
-PING_COMMAND : ["ping"]
+PING_COMMAND : ["pings"]
 START_COMMAND : ["start"]
-HELP_COMMAND : ["help"]
-SETTINGS_COMMAND : ["settings", "setting"]
-RELOAD_COMMAND : ["admincache", "reload"]
-GSTATS_COMMAND : ["gstats"]
-STATS_COMMAND : ["stats"]
+HELP_COMMAND : ["helps"]
+SETTINGS_COMMAND : ["settingd", "setting"]
+RELOAD_COMMAND : ["admincaches", "reloads"]
+GSTATS_COMMAND : ["gstat"]
+STATS_COMMAND : ["stat"]
 LANGUAGE_COMMAND : ["lang", "language", "langs"]
 
 # Play Commands
@@ -27,28 +27,28 @@ CHANNELPLAY_COMMAND : ["channelplay"]
 STREAM_COMMAND : ["stream", "cstream", "streamforce"]
 
 #Playlists Command
-PLAYLIST_COMMAND : ["playlist"]
+PLAYLIST_COMMAND : ["playlists"]
 DELETEPLAYLIST_COMMAND : ["deleteplaylist"]
 
 
 # Tools
-QUEUE_COMMAND : ["queue","cqueue"]
-SONG_COMMAND : ["song", "video"]
-LYRICS_COMMAND : ["lyrics"]
+QUEUE_COMMAND : ["queues","cqueues"]
+SONG_COMMAND : ["songs", "videos"]
+LYRICS_COMMAND : ["lyric"]
 
 
 # Admin Commands
-AUTH_COMMAND : ["auth"]
-UNAUTH_COMMAND : ["unauth"]
-AUTHUSERS_COMMAND : ["authusers"]
-PAUSE_COMMAND : ["pause", "cpause"]
-RESUME_COMMAND : ["resume", "cresume"]
-MUTE_COMMAND : ["mute", "cmute"]
-UNMUTE_COMMAND : ["unmute", "cunmute"]
-STOP_COMMAND : ["stop", "end", "cstop", "cend"]
-SKIP_COMMAND : ["skip", "cskip"]
+AUTH_COMMAND : ["auths"]
+UNAUTH_COMMAND : ["unauths"]
+AUTHUSERS_COMMAND : ["authuser"]
+PAUSE_COMMAND : ["pauses", "cpauses"]
+RESUME_COMMAND : ["resumes", "cresumes"]
+MUTE_COMMAND : ["mutes", "cmutes"]
+UNMUTE_COMMAND : ["unmutes", "cunmutes"]
+STOP_COMMAND : ["stops", "ends", "cstops", "cends"]
+SKIP_COMMAND : ["skips", "cskips"]
 SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
-LOOP_COMMAND : ["loop", "cloop"]
+LOOP_COMMAND : ["loops", "cloops"]
 
 
 # Sudo Users Commaands
@@ -56,7 +56,7 @@ LOOP_COMMAND : ["loop", "cloop"]
 # Sudo Command
 ADDSUDO_COMMAND : ["addsudo"]
 DELSUDO_COMMAND : ["delsudo"]
-SUDOUSERS_COMMAND : ["sudolist"]
+SUDOUSERS_COMMAND : ["sudolists"]
 
 #Broadcast 
 BROADCAST_COMMAND : ["broadcast"]
@@ -71,7 +71,7 @@ VIDEOLIMIT_COMMAND : ["set_video_limit"]
 VIDEOMODE_COMMAND : ["videomode"]
 
 #Mantenance
-MAINTENANCE_COMMAND : ["maintenance"]
+MAINTENANCE_COMMAND : ["maintenances"]
 LOGGER_COMMAND : ["logger"]
 
 #Heroku
@@ -85,7 +85,7 @@ VARS_COMMAND : ["vars", "config"]
 
 #Basic Bot Commands
 UPDATE_COMMAND : ["update"]
-RESTART_COMMAND : ["restart"]
+RESTART_COMMAND : ["restarts"]
 
 #Private Bot Mode
 AUTHORIZE_COMMAND : ["authorize"]
@@ -101,7 +101,7 @@ BLOCKED_COMMAND : ["blockedusers"]
 SPEEDTEST_COMMAND : ["speedtest"]
 
 #Voice chat commands
-ACTIVEVC_COMMAND : ["activevoice"]
+ACTIVEVC_COMMAND : ["activevc"]
 ACTIVEVIDEO_COMMAND : ["activevideo"]
 
 #Gban Commands
