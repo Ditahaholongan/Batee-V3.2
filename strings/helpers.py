@@ -11,27 +11,27 @@ HELP_1 = """✅**<u>Admin Commands:</u>**
 
 **c** stands for channel play.
 
-/pause or /cpause - Pause the playing music.
-/resume or /cresume- Resume the paused music.
-/mute or /cmute- Mute the playing music.
-/unmute or /cunmute- Unmute the muted music.
-/skip or /cskip- Skip the current playing music.
-/stop or /cstop- Stop the playing music.
-/shuffle or /cshuffle- Randomly shuffles the queued playlist.
+/pause sor /cpauses - Pause the playing music.
+/resumes or /cresumes - Resume the paused music.
+/mutes or /cmutes - Mute the playing music.
+/unmutes or /cunmutes - Unmute the muted music.
+/skips or /cskips - Skip the current playing music.
+/stops or /cstops - Stop the playing music.
+/shuffles or /cshuffles- Randomly shuffles the queued playlist.
 
 ✅<u>**Specific Skip:**</u>
-/skip or /cskip [Number(example: 3)] 
+/skips or /cskips [Number(example: 3)] 
     - Skips music to a the specified queued number. Example: /skip 3 will skip music to third queued music and will ignore 1 and 2 music in queue.
 
 ✅<u>**Loop Play:**</u>
-/loop or /cloop [enable/disable] or [Numbers between 1-10] 
+/loops or /cloops [enable/disable] or [Numbers between 1-10] 
     - When activated, bot loops the current playing music to 1-10 times on voice chat. Default to 10 times.
 
-✅<u>**Auth Users:**</u>
+✅<u>**Auths Users:**</u>
 Auth Users can use admin commands without admin rights in your chat.
 
-/auth [Username] - Add a user to AUTH LIST of the group.
-/unauth [Username] - Remove a user from AUTH LIST of the group.
+/auths [Username] - Add a user to AUTH LIST of the group.
+/unauths [Username] - Remove a user from AUTH LIST of the group.
 /authusers - Check AUTH LIST of the group."""
 
 
@@ -53,7 +53,7 @@ ForcePlay Commands = playforce , vplayforce , cplayforce
 
 
 ✅**<u>Bot's Server Playlists:</u>**
-/playlist  - Check Your Saved Playlist On Servers.
+/playlists  - Check Your Saved Playlist On Servers.
 /deleteplaylist - Delete any saved music in your playlist
 /play  - Start playing Your Saved Playlist from Servers."""
 
@@ -66,15 +66,15 @@ HELP_3 = """✅<u>**Bot Commands:**</u>
 
 /lyrics [Music Name] - Searches Lyrics for the particular Music on web.
 
-/song [Track Name] or [YT Link] - Download any track from youtube in mp3 or mp4 formats.
+/songs [Track Name] or [YT Link] - Download any track from youtube in mp3 or mp4 formats.
 
 **c** stands for channel play.
-/queue or /cqueue- Check Queue List of Music."""
+/queues or /cqueues - Check Queue List of Music."""
 
 HELP_4 = """✅<u>**Extra  Commands:**</u>
 /start - Start the Music Bot.
-/help  - Get Commands Helper Menu with detailed explanations of commands.
-/ping- Ping the Bot and check Ram, Cpu etc stats of Bot.
+/helps  - Get Commands Helper Menu with detailed explanations of commands.
+/pings - Ping the Bot and check Ram, Cpu etc stats of Bot.
 
 ✅<u>**Group Settings:**</u>
 /settings - Get a complete group's settings with inline buttons
